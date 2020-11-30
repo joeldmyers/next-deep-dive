@@ -20,3 +20,5 @@ Then:
 
 
 ### Routing
+
+Next.js comes out of the box with some conventions around routing. In particular, anything in the pages folder will render at the route the filename has.
