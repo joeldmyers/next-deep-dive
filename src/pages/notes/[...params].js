@@ -3,8 +3,9 @@ import { useRouter } from "next/router";
 
 const Note = () => {
   const router = useRouter();
-  const { id } = router.query;
-  return <div>Note Page: {id}</div>;
+  const { params } = router.query;
+  console.log(params);
+  return <div>Note Page: {params}</div>;
 };
 
 export default Note;

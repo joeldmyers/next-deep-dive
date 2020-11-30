@@ -31,3 +31,10 @@ Use `useRouter` - `import { useRouter } from 'next/router'`. See pages/notes/[id
 #### Catch-all routes:
 
 Name a file like notes/[...param].js and it will catch all the params in the URL, if we want to have multiple params in the URL.
+
+You can also do an optional catch-all, like [[...params]].js. It includes the parent object as well.
+
+#### Non-Pages
+
+What about components that we want to reuse, like a button component?
+We typically create a `src` folder in root, and then `components` in src.
